@@ -11,7 +11,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  var dic = Random().nextInt(6);
+  var dic = Random().nextInt(6) + 1;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
